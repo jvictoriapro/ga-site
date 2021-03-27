@@ -17,14 +17,14 @@ body{
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
-    background: #FFAFBD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFAFBD;  
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD); 
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); 
     border-radius: 3px;
     box-shadow: -10px -10px 15px rgba(225,255,255,0.5),
     10px 10px 15px rgba(70,70,70,0.12);
 }
-    /* overflow: hidden; */
+ 
 
 
 .wrapper{ 
@@ -32,7 +32,6 @@ body{
     width: 90%;
     margin-left: auto;
     margin-top: 40px;
-    /* background: cadetblue; */
 
 } 
 
@@ -41,14 +40,12 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    /*background: pink;*/
 }
 
 .logo{
     flex-basis: 30%;
     display: flex;
     align-items: center;
-    /*background: lightcoral*/
 }
 
 .logo img{
@@ -58,7 +55,6 @@ body{
 
 .nav-items{
     flex-basis: 70%;
-    /*background:lightsalmon;*/
     display: flex;
     justify-content: space-evenly;
 }
@@ -75,12 +71,10 @@ body{
 .nav-items1 li a,.nav-items2 li a{
     font-size: 14px;
     text-decoration: none;
-    /*color: #34495e;*/
     transition: 0.5s;
 }
 
 .nav-items1 li a:hover,.active{
-    /*background: #feb84d;*/
     padding: 2px 5px;
     border-radius: 3px;
     color: white !important;
@@ -88,7 +82,6 @@ body{
 
 .nav-items2 li a:hover,.active{
     background: rgb(248, 197, 197);
-    /*color: #34495e !important;*/
     border-radius: 3px;
     padding: 2px 5px;
 }
@@ -104,7 +97,6 @@ body{
     width: 100%;
     margin-top: 80px;
     position: relative;
-   /* background: burlywood;*/
 }
 
 .content-text h1{
@@ -123,13 +115,11 @@ body{
     width:100 px;
     border: none;
     outline: none;
-    /*background: #6b0f3a;*/
     border-radius: 5px;
     margin-top: 20px;
-    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     cursor: pointer;
-    /*color: rgba(230, 70, 123, 0.979);*/
+    
 }
 
 .content-text button:hover{
@@ -142,10 +132,3 @@ body{
     left: 56%;
     top: -14%;
 }
-
-/*.logo1{
-    position: absolute;
-    height: 600px;
-    right: -180px;
-    top: -135px;
-}*/
